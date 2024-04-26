@@ -202,3 +202,52 @@ section > div > p {
     line-height: 40px;
     width: 100%;
 }
+
+#learn {
+    padding-top: 150px;
+   
+}
+
+#learn > div {
+    width: 100%;
+}
+
+#tutorials {
+    margin: auto;
+    margin-top: 50px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.tutorial { 
+    height:350px;
+    width:20%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tutorial:hover {
+    box-shadow: 0 0 20px black;
+    transition: 500ms ease;
+    transform: translateY(-5px);
+}
+
+.tutorial > div > h1 {
+    color: white;
+    margin: auto;
+    font-size: 50px;
+}
+
+.tutorial > div > p {
+    color: white;
+    margin: auto;
+    font-size: 25px;
+}
